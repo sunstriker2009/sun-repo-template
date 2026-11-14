@@ -1,28 +1,29 @@
 # STRATA by Sun — Brand Guide
 
-**Status:** Name approved; tagline and visual identity pending owner approval.  
-**Role:** SUN's reusable repository template/foundation.  
-**Proposed tagline:** Structure. Foundation. Growth.
+**Status:** Earth & Sandstone visual direction approved; raster assets committed and archived.
 
-## Identity
+**Tagline:** Structure. Foundation. Growth.
 
-STRATA provides the starting layers of a SUN repository: structure, baseline CI, governance scaffolding and documentation. FOUNDRY is the provisioning and governance automation engine, not another name for this template.
+## Visual identity
 
-The SUN arc, a distinctive foundation/layer motif, and a palette differentiated from FOUNDRY, ORYVA and ASTELVO are recommended concept directions. **No STRATA logo, panoramic banner, canonical raster, icon variants, or palette has been approved or generated.** Do not use another SUN product's artwork as a placeholder.
+- SUN sunrise arc above a dimensional, layered S, evoking foundational geological strata.
+- Sandstone `#E9BD86`, terracotta `#C65D30`, deep umber `#4A261E`, solar amber `#F5A623` (working palette approximations, not color-sampled canonical values).
+- Approved panoramic composition includes STRATA, **by Sun**, and the tagline.
+- Compact SVGs are simplified adaptations for documentation/UI, not direct extractions of the original raster.
 
-## Product repository branding contract
+## Assets and provenance
 
-The template intentionally contains no pre-approved product-specific images. New repositories must replace the starter README identity with their own owner-approved product name, tagline, banner and compact assets.
+- `assets/symbol-dark.svg`, `assets/symbol-light.svg`, `assets/symbol-small.svg`: compact geometric adaptations.
+- `assets/lockup-dark.svg`: simplified dark-background lockup.
+- `assets/readme-banner-v1.png`: approved panoramic production banner, with STRATA, **by Sun** and tagline.
+- `archive/originals/readme-banner-v1.png`: byte-identical archival copy of the approved banner.
+- `archive/originals/symbol-reference-v1.png`: approved white-background symbol reference (not a transparent canonical symbol).
+- `archive/concepts/concept-banner-v1.png`: earlier concept banner preserved outside production assets.
 
-Once STRATA's own visual identity is approved, any STRATA-specific artwork should be placed under `branding/assets/` with originals under `branding/archive/originals/`. **Do not let STRATA's own brand assets become default copied branding for new products.** A template-specific opt-out/removal process must be defined before adding them to a GitHub template repository.
+The raster artwork was uploaded without alteration and moved by Git blob SHA; no raster artwork was regenerated. A true transparent canonical symbol and PNG icon exports remain future work.
 
-See [SUN Product Branding Standard](https://github.com/sunstriker2009/sun-ecosystem/blob/main/docs/governance/PRODUCT-BRANDING.md) and [FOUNDRY adoption checklist](https://github.com/sunstriker2009/sun-foundry/blob/main/branding/ADOPTION-CHECKLIST.md).
+## Template safety
 
-## Rename checklist
+STRATA is a GitHub template. Product-specific STRATA assets must not be inherited as the identity of newly generated repositories. Keep STRATA's own README and artwork isolated from downstream product branding; FOUNDRY should replace template branding during product initialization or explicitly document the cleanup step.
 
-- [ ] Merge STRATA naming/documentation PR.
-- [ ] Rename GitHub repository from `sun-repo-template` to `sun-strata` in Settings → General → Repository name.
-- [ ] Confirm GitHub template-repository setting remains enabled.
-- [ ] Update all FOUNDRY and SUN ecosystem references and automation configuration to `sunstriker2009/sun-strata`.
-- [ ] Verify FOUNDRY provisioning against the renamed template.
-- [ ] Approve STRATA's own concept artwork and production assets in a separate review.
+See [SUN product branding standard](https://github.com/sunstriker2009/sun-ecosystem/blob/main/docs/governance/PRODUCT-BRANDING.md).
