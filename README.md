@@ -1,6 +1,8 @@
-# SUN Repository Template
+# STRATA by Sun
 
-Reusable, stack-agnostic GitHub repository starter for SUN products.
+**Structure. Foundation. Growth.**
+
+STRATA is the reusable, stack-agnostic GitHub repository foundation for SUN products. FOUNDRY provisions and configures repositories; STRATA supplies their initial files, governance scaffolding and baseline CI.
 
 Includes:
 - Baseline `CI` workflow (repository structure validation)
